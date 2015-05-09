@@ -1,8 +1,5 @@
 AM_CPPFLAGS = -I$(top_srcdir)/src/libWhistGame
 AM_CPPFLAGS += -I$(top_srcdir)/src/AI
-AM_CPPFLAGS += -I$(top_srcdir)/src/ServerWhist/database
-AM_CPPFLAGS += -I$(top_srcdir)/src/ServerWhist/parser
-AM_CPPFLAGS += -I$(top_srcdir)/src/ServerWhist/server
 CFLAGS += -std=c99 -std=c++11 -g -Wall 
 LDFLAGS += -lSDL2 -lSDL2_image -lSDL2_ttf -pthread -lboost_system
 
